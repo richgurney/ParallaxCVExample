@@ -1,0 +1,431 @@
+.parallax {
+  height: 500px; /* fallback for older browsers */
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 300px;
+  perspective: 300px;
+  }
+
+.parallax__group {
+  position: relative;
+  height: 500px; /* fallback for older browsers */
+  height: 100vh;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+body, html {
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+
+/* centre the content in the parallax layers */
+.title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width:600px;
+  border-radius: 100px;
+  border: solid 5px #FA4542;
+  background-color: white;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #363732;
+  box-shadow: 10px 10px 5px black;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 10px;
+
+}
+
+.title h1 {
+  font-size: 55px;
+}
+
+.cv {
+  text-align: center;
+  position: absolute;
+  top: -55%;
+  left: 1%;
+  width:100%;
+  font-family: 'Rancho', cursive;
+  color: white;
+/*  -webkit-transform: translate(-50%, 20%);
+  transform: translate(-50%, 20%);*/
+}
+
+.cv h2 {
+  font-size: 40px;
+}
+
+.titleHeader {
+  text-align: center;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width:200px;
+  border-radius: 80px;
+  background-color: #363732;
+  border: solid 3px #FA4542;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.tlTwit a {
+  text-decoration: none;
+}
+
+.tlTwit {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width:600px;
+  height:100px;
+  border-radius: 80px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white; 
+  margin: auto;
+}
+
+.socialLinks {
+  display: inline-block;
+}
+
+.tlgit {
+  margin-left: 10px;
+}
+
+.tllink {
+  margin-left: 10px;
+}
+
+#icons {
+  height: 100px; 
+  width: 100px;
+}
+
+.page2title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 135px;
+  width:550px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.page2title h1 {
+  font-size: 55px;
+}
+  
+.page2Content {
+  background-color: rgba(255, 255, 255, 0.81);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  padding-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.page2Content p {
+  font-size: 20px;
+}
+
+.skillsTitle {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width:600px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.skillsTitle h1 {
+  font-size: 45px;
+}
+
+#skills {
+  height: 75%; 
+  width: 90%;
+  text-align: center;
+  display:block;
+  margin:auto;
+  border-radius: 20px;
+  border-radius: 50px;
+  border: solid 5px #FA4542;
+}
+
+#skillImages {
+  margin-top: 185px;
+}
+
+.page3title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 140px;
+  width:700px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.page3title h1 {
+  font-size: 55px;
+}
+
+.page4title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 135px;
+  width:700px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.page4title h1 {
+  font-size: 55px;
+}
+
+#page4dev {
+  margin-top: 180px;
+}
+
+#page4content h2{
+  font-size: 30px;
+}
+
+#page4content {
+  background-color: rgba(255, 255, 255, 0.81);
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+.page5title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 135px;
+  width:550px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.page5title h1 {
+  font-size: 55px;
+}
+
+#gaLogo {
+  height: 265px;
+  width: 230px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#portrait {
+  height: 300px;
+  width: 327px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+  
+
+
+@media screen and (max-width: 834px) {
+#icons {
+    height: 50px; 
+    width: 50px;
+}
+.title h1 {
+  font-size: 25px;
+}
+.cv h2 {
+  font-size: 20px;
+}
+.title {
+  width:300px;
+}
+.page2title {
+  width: 300px;
+  top: 40px;
+}
+.page2Content p {
+  font-size: 15px;
+}
+.page2Content {
+  width: 100%;
+  height: 40%;
+}
+.page2title h1 {
+  font-size: 30px;
+}
+.page3title h1 {
+  font-size: 30px;
+}
+.page4title h1 {
+  font-size: 30px;
+}
+.skillsTitle h1 {
+  font-size: 30px;
+}
+.page4title {
+  width:400px;
+  top: 40px;
+}
+#page4title h2{
+  font-size: 10px;
+}
+#page4content p{
+  font-size: 15px;
+}
+#page4content a{
+  font-size: 15px;
+}
+#page4content h2{
+  font-size: 20px;
+}
+#page4dev {
+  margin-top: 80px;
+}
+.parallax {
+    height: 900px; /* fallback for older browsers */
+}
+.parallax__group {
+    height: 900px; /* fallback for older browsers */
+}
+.page5title {
+  top: 35px;
+  width:550px;
+}
+.page5title h1 {
+  font-size: 30px;
+}
+
+}
+
+#scroller {
+  border-radius: 70px;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+}
+
+  
+.parallax__layer--fore {
+  -webkit-transform: translateZ(90px) scale(.7);
+  transform: translateZ(90px) scale(.7);
+  z-index: 1;
+}
+
+.parallax__layer--base {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 4;
+}
+
+.parallax__layer--back {
+  -webkit-transform: translateZ(-300px) scale(2);
+  transform: translateZ(-300px) scale(2);
+  z-index: 3;
+}
+
+.parallax__layer--deep {
+  -webkit-transform: translateZ(-600px) scale(3);
+  transform: translateZ(-600px) scale(3);
+  z-index: 2;
+}
+
+#group1 {
+  z-index: 5; /* slide over group 2 */
+}
+#group1 .parallax__layer--base {
+  background: #253237;
+}
+
+#group2 {
+  z-index: 3; /* slide under groups 1 and 3 */
+}
+#group2 .parallax__layer--back {
+  background-image: url("images/comp/final/fourthBackground.jpg");
+  background-size: cover;
+  }
+
+#group3 {
+  z-index: 4; /* slide over group 2 and 4 */
+}
+#group3 .parallax__layer--base {
+  background: #5C6B73;
+}
+
+#group4 {
+  z-index: 2; /* slide under group 3 and 5 */
+}
+#group4 .parallax__layer--deep {
+  background-image: url("images/comp/final/secondBackground.jpg");
+  background-size: cover;
+}
+
+#group5 {
+  z-index: 3; /* slide over group 4 and 6 */
+}
+#group5 .parallax__layer--base {
+  background: #253237;
+}
+
+#group6 {
+  z-index: 2; /* slide under group 5 and 7 */
+}
+#group6 .parallax__layer--back {
+  background-image: url("images/comp/final/dome.jpg");
+  background-size: cover;
+}
+
+#group7 {
+  z-index: 3; /* slide over group 7 */
+}
+#group7 .parallax__layer--base {
+  background-image: url("images/comp/final/dome.jpg");
+  background-size: cover;
+}
+
+
